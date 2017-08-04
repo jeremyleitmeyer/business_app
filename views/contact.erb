@@ -1,16 +1,22 @@
-<h1>Contact</h1>
-
 <div class="form">
+  <h1>Contact</h1>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select One
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="#" value="HTML/CSS">HTML/CSS</a></li>
+      <li><a href="#" value="JAVASCRIPT">JAVASCRIPT</a></li>
+      <li><a href="#" value="RUBY">RUBY</a></li>
+    </ul>
+  </div>
 	<form action="/submit" method="post">
-		<p>Interest of Study:</p>
-			<select name="language">
-				<option value="Select Option">Select Option</option>
-				<option value="HTML/CSS">HTML/CSS</option>
-				<option value="JavaScript">JavaScript</option>
-				<option value="Ruby">Ruby</option>
-			</select>
-		<p>Name:</p><input type="text">
-		<p>Email:</p><input type="text">
-		<p>Comments, questions, and inquiries...</p><textarea type="text"></textarea>
-		<input type="submit" value="Submit">
+    <div>
+  		<p>Name:</p><input type="text" name="subject">
+  		<p>Email:</p><input type="text" name="from">
+  		<p>Comments, questions, and inquiries...</p>
+      <textarea type="text" name="content"></textarea>
+  		<input type="submit" value="Submit">
+    <div>
 </div>
