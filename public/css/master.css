@@ -1,3 +1,13 @@
 body {
   padding-top: 70px
  }
+
+.form {
+  text-align: center;
+}
+
+.form textarea {
+  width: 300px;
+  height: 100px;
+  resize: none;
+}
