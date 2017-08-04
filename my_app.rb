@@ -25,7 +25,7 @@ include SendGrid
    @content = params[:content]
    binding.pry
    from = Email.new(email: @from)
-   to = Email.new(email: 'jeremyleitmeyer@gmail.com')
+   to = Email.new(email: 'paul.j.elion@gmail.com')
    subject = @subject
    content = Content.new(type: 'text/plain', value: @content)
    mail = Mail.new(from, subject, to, content)
