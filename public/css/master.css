@@ -1,28 +1,57 @@
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   background-image: url("http://adetuning.co.uk/wp-content/uploads/2014/06/grey-background4.jpg");
 }
 
-.home {
-  padding-top: -40px;
+.home img {
+  margin-bottom: 10px;
+}
+
+.home .row {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 97%;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .team {
   text-align: center;
 }
 
+.team img {
+  float: left;
+}
+
 .team .row {
   border: 1px solid black;
   background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
 }
 
 .service {
   text-align: center;
+  margin-left: 22px;
 }
 
-.service .row #icon-box {
+.service .row .col-md-4 {
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  font-size: 16px;
   border: 1px solid black;
-  background-color: blue;
+  margin: 10px;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.service .row .col-md-4 a {
+  text-decoration: none;
+  color: white;
 }
 
 .form textarea {
@@ -33,13 +62,62 @@ body {
 
 .form .contact_border {
   margin: 0 auto;
+  margin-top: 10px;
   text-align: center;
   width: 600px;
   border: 1px solid black;
   background-color: rgba(255, 255, 255, 0.6);
   font-size: 24px;
+  padding: 5px;
 }
 
 .form h1 {
   font-size: 30px;
+}
+
+footer{
+  border: 1px solid black;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+
+#myModal {
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    background-color: lightgrey;
+    text-align: center;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 3px solid black;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
