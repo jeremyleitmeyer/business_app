@@ -3,6 +3,7 @@ body {
   background-image: url("https://s3.envato.com/files/137980694/preview.jpg");
   background-size: cover;
   background-color: royalblue;
+  position: relative;
 }
 
 .home img {
@@ -23,10 +24,6 @@ body {
   width: 97%;
   border: 3px solid royalblue;
   background-color: white;
-}
-
-.team {
-  
 }
 
 .team img {
@@ -114,11 +111,12 @@ footer {
   border: 1px solid royalblue;
   background-color: white;
   text-align: center;
+  margin: 0 auto;
   left: 0;
   bottom: 0;
-  height: 100px;
+  height: 50px;
   width: 100%;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 
