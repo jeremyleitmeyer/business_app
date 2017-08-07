@@ -5,7 +5,7 @@ window.addEventListener("load", function(){
   
     myModal.classList.remove("hidden")
 
-  }, 1000)
+  }, 3000)
 })
 
 var close = document.querySelector("#close")
