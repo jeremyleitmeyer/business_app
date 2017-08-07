@@ -8,8 +8,8 @@ window.addEventListener("load", function(){
   }, 3000)
 })
 
-var close = document.querySelector("#close")
+var closeModal = document.querySelector(".close")
 
-close.onclick = function() {
+closeModal.onclick = function() {
 	myModal.classList.add("hidden")
 }
