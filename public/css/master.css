@@ -7,7 +7,6 @@ body {
 
 .home img {
   margin-bottom: 10px;
-  border: 2px solid black;
 }
 
 .home input {
@@ -46,7 +45,13 @@ body {
 
 .service {
   text-align: center;
-  margin-left: 22px;
+  margin: 0 auto;
+}
+
+.service .row {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .service button {
@@ -58,7 +63,7 @@ body {
 }
 
 .service .row .col-md-4 {
-  text-align: center;
+  display: inline-block;
   width: 400px;
   height: 520px;
   font-size: 16px;
@@ -104,10 +109,15 @@ body {
   margin-top: 7px;
 }
 
-footer{
+footer {
   border: 1px solid royalblue;
   background-color: white;
   text-align: center;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow:hidden;
 }
 
 
