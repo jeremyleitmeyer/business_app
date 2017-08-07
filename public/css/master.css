@@ -32,6 +32,7 @@ body {
 .team img {
   float: left;
   border: 2px solid royalblue;
+  margin-top: 5px;
   margin-right: 15px;
 }
 
@@ -65,7 +66,7 @@ body {
 .service .row .col-md-4 {
   display: inline-block;
   width: 400px;
-  height: 520px;
+  height: 80%;
   font-size: 16px;
   border: 3px solid royalblue;
   margin: 10px;
