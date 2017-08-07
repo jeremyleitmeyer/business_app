@@ -13,3 +13,8 @@ var closeModal = document.querySelector(".close")
 closeModal.onclick = function() {
 	myModal.classList.add("hidden")
 }
+
+
+
+
+
