@@ -60,6 +60,14 @@ body {
   margin-top: 10px;
 }
 
+.service #jsButton {
+  margin-top: 55px;
+}
+
+.service #rubyButton{
+  margin-top: 11px;
+}
+
 .service .row .col-md-4 {
   display: inline-block;
   width: 400px;
