@@ -7,6 +7,7 @@ body {
 
 .home img {
   margin-bottom: 10px;
+  border: 2px solid black;
 }
 
 .home .row {
@@ -42,6 +43,10 @@ body {
   margin-left: 22px;
 }
 
+.service button {
+  margin-bottom: 10px;
+}
+
 .service img {
   margin-top: 10px;
 }
@@ -49,7 +54,7 @@ body {
 .service .row .col-md-4 {
   text-align: center;
   width: 400px;
-  height: 500px;
+  height: 520px;
   font-size: 16px;
   border: 3px solid royalblue;
   margin: 10px;
@@ -89,10 +94,13 @@ body {
   margin-left: 36%;
 }
 
+.form p {
+  margin-top: 7px;
+}
+
 footer{
-  border: 1px solid black;
-  background-color: grey;
-  color: white;
+  border: 1px solid royalblue;
+  background-color: white;
   text-align: center;
 }
 
